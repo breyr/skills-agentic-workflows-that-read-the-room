@@ -8,6 +8,10 @@ permissions:
   contents: read
   pull-requests: read
 engine: copilot
+model: auto
+models:
+  allowed:
+    - copilot/gpt-5.6-luna
 network:
   allowed:
     - defaults
