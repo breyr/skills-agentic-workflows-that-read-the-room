@@ -19,7 +19,7 @@ tools:
     mode: remote
     toolsets:
       - repos
-    allowed-repos: "${{ github.repository }}"
+    allowed-repos: public
     min-integrity: approved
   web-fetch:
   edit:
